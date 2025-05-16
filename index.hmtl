@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Localiza.me - Seguridad para Montañeros Solitarios</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- HERO -->
+  <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/4596048/pexels-photo-4596048.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center px-4">
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Nunca más estarás solo en la montaña</h1>
+      <p class="text-xl md:text-2xl text-white mb-6">Nuestra plataforma conecta a montañeros solitarios con contactos de seguridad confiables</p>
+      <a href="#contacto" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 px-6 rounded-lg transition-all">Únete ahora</a>
+    </div>
+  </section>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <section class="py-16 px-6 md:px-20">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">¿Por qué Localiza.me?</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-lg mb-4">Cuando haces senderismo o travesías en solitario, surge una duda esencial: ¿a quién aviso por si algo me ocurre? Tu familia se preocuparía, y un desconocido podría olvidarlo.</p>
+          <p class="text-lg mb-4">Localiza.me ofrece una solución ética, sencilla y eficiente: dejar constancia de tu itinerario y elegir un contacto seguro que será notificado automáticamente si no confirmas tu regreso.</p>
+        </div>
+        <img src="https://media.istockphoto.com/id/1296344118/es/foto/hermosa-mujer-feliz-disfrutando-de-la-c%C3%A1lida-luz-del-sol-en-un-parque-p%C3%BAblico-tropical.jpg?s=1024x1024&w=is&k=20&c=OuxbAa8Eo1NwrdTwyP0EuhpZ7xmooOTn4JJUlIiq0Pg=" alt="Senderista en la naturaleza" class="rounded-2xl shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="py-12 px-6 md:px-20 bg-gray-100">
+    <h2 class="text-2xl font-semibold text-center mb-10">Conectando naturaleza, seguridad y comunidad</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <img src="https://images.pexels.com/photos/32020584/pexels-photo-32020584/free-photo-of-pesca-en-blanco-y-negro-en-stamford-cove.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="rounded-xl shadow-md">
+      <img src="https://images.pexels.com/photos/103889/pexels-photo-103889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="rounded-xl shadow-md">
+      <img src="https://images.pexels.com/photos/105857/pexels-photo-105857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="rounded-xl shadow-md">
+    </div>
+  </section>
+
+  <!-- TESTIMONIO -->
+  <section class="py-16 px-6 md:px-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-semibold mb-6">“Por fin puedo viajar en paz sabiendo que alguien me espera sin preocuparse de más.”</h2>
+      <p class="text-lg italic">— Marta, viajera en solitario</p>
+    </div>
+  </section>
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <section id="contacto" class="py-20 px-6 md:px-20 bg-yellow-50">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">¿Quieres saber más? Contáctanos</h2>
+      <form action="mailto:gustazo@localiza.me" method="POST" enctype="text/plain" class="space-y-6">
+        <div>
+          <label class="block text-sm font-medium mb-1">Nombre</label>
+          <input type="text" name="nombre" required class="w-full border border-gray-300 p-3 rounded-lg">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Email</label>
+          <input type="email" name="email" required class="w-full border border-gray-300 p-3 rounded-lg">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Mensaje</label>
+          <textarea name="mensaje" rows="5" class="w-full border border-gray-300 p-3 rounded-lg"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 px-8 rounded-lg transition-all">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="text-center py-6 bg-gray-900 text-white text-sm">
+    &copy; 2025 Localiza.me — Todos los derechos reservados
+  </footer>
+</body>
+</html>
